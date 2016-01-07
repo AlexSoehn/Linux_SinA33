@@ -164,6 +164,8 @@ struct sun4i_tcon {
 
 	struct drm_bridge		*bridge;
 	struct drm_panel		*panel;
+
+	bool				has_channel_1;
 };
 
 /* Global Control */
