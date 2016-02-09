@@ -174,7 +174,3 @@
 	pinctrl-0 = <&r_uart_pins_a>;
 	status = "okay";
 };
-
-&simplefb_lcd {
-	vcc-lcd-supply = <&reg_dc1sw>;
-};
