@@ -277,7 +277,7 @@
 
 	display-engine {
 		compatible = "allwinner,sun5i-a13-display-engine";
-		pipelines = <&be0>;
+		allwinner,pipelines = <&be0>;
 	};
 };
 
