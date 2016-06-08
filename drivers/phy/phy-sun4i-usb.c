@@ -686,8 +686,6 @@ static int sun4i_usb_phy_probe(struct platform_device *pdev)
 		return PTR_ERR(phy_provider);
 	}
 
-	dev_info(&pdev->dev, "sun4i USB phy driver loaded\n");
-
 	return 0;
 }
 
